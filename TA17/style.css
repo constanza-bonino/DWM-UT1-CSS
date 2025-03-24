@@ -1,0 +1,41 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.total {
+    width: 300px;
+    padding: 20px;
+    border-radius: 20%;
+    background-color: rgb(135, 34, 34);
+}
+
+img {
+    /*la posición absoluta queda bien en pantalla completa*/
+    position: absolute;
+    top: 32%;
+    left: 38%;
+    width:  100px;
+    border-radius: 50%;
+
+}
+
+.center {
+    display: flex;
+    height:30vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+h2 {
+    margin:0;
+    text-align: center;
+}
+
+p {
+    margin:0;
+    text-align: center;
+}
