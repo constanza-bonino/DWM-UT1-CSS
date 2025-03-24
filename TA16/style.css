@@ -1,18 +1,19 @@
-body {
-    background-color: red;
+
+@media (min-width: 425px) {
+    body {
+        background-color: blue;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .photo {
+        width: 100%;
+    }
 }
 
-p {
-    font-size: 24px;
-}
-
-.photo {
-    width: 50%;
-}
-
-
-
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     body {
         background-color: green;
     }
@@ -26,16 +27,16 @@ p {
     }
 }
 
-@media (max-width: 425px) {
+@media (min-width: 1440px) {
     body {
-        background-color: blue;
+        background-color: red;
     }
 
     p {
-        font-size: 14px;
+        font-size: 24px;
     }
 
     .photo {
-        width: 100%;
+        width: 50%;
     }
 }
